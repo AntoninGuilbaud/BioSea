@@ -14,7 +14,7 @@ function InfoComponents({ data }: InfoProps) {
       <div className="flex flex-col space-y-8">
         {/* Titre principal */}
         <Title1 className="text-left text-lg sm:text-lg md:text-2xl lg:text-4xl">
-          Vous savez combien représentent les océans de la surface de la Terre ?
+          {data.title}
         </Title1>
 
         {/* Pourcentage avec un style responsive */}
