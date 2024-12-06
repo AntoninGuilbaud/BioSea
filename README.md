@@ -1,50 +1,17 @@
-# React + TypeScript + Vite
+# 🌊 BioSea
+BioSea est une application web interactive et éducative développée dans le cadre de la Nuit de l’Info 2024. Elle met en lumière les similitudes entre le corps humain et les systèmes océaniques, afin de sensibiliser le public à l’importance de préserver les océans pour la santé de notre planète.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌍 Pourquoi BioSea ?
+Les océans, essentiels à la vie sur Terre, jouent un rôle vital dans la régulation du climat, la production d'oxygène, et le maintien d'une biodiversité unique. À travers des parallèles fascinants entre le corps humain et l'océan, BioSea vise à inspirer une prise de conscience collective sur leur préservation.
 
-Currently, two official plugins are available:
+# 🛠️ Fonctionnalités clés
+Exploration interactive : Découvrez les connexions entre le cœur humain et les courants marins, les poumons et la photosynthèse océanique, et bien plus encore. Podcasts éducatifs : Écoutez des contenus audio/vidéo intégrés pour approfondir votre compréhension des mécanismes océaniques. Interface responsive : Conçue pour une utilisation sur mobile, tablette, ou écran classique.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💡 Objectif
+Inspirer les utilisateurs à agir pour protéger les océans en illustrant leur importance cruciale à travers une expérience immersive et engageante.
 
-## Expanding the ESLint configuration
+# 🔗 Lien
+Ce projet est disponible sur cette adresse : https://bio-sea.vercel.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# 🙌 Remerciements
+Merci à la Fondation Race for Water pour leur engagement dans la préservation des océans et à l’équipe de la Nuit de l’Info 2024 pour leur soutien dans ce projet.
